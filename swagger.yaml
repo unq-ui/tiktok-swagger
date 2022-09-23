@@ -66,8 +66,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorDTO'
-  /user/{id
-}:
+  /user/{id}:
     get:
       tags:
         - User
