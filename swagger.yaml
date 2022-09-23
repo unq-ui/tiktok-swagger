@@ -92,8 +92,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorDTO'
-  /user/{id
-}/follow:
+  /user/{id}/follow:
     put:
       tags:
         - User
@@ -135,8 +134,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorDTO'
-  /post/{id
-}:
+  /post/{id}:
     get:
       tags:
         - Post
@@ -162,8 +160,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorDTO'
-  /post/{id
-}/comment:
+  /post/{id}/comment:
     post:
       tags:
         - Post
@@ -216,8 +213,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorDTO'
-  /post/{id
-}/like:
+  /post/{id}/like:
     put:
       tags:
         - Post
@@ -294,8 +290,7 @@ paths:
                 type: array
                 items:
                   type: string
-  /trends/{trendName
-}:
+  /trends/{trendName}:
     get:
       tags:
         - Trends
